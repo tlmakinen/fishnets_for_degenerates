@@ -25,9 +25,12 @@ do_avg_plot = bool(int(sys.argv[2]))
 model_selection = sys.argv[3]
 full_model = bool(int(sys.argv[4]))
 
+# model dir
+modeldir = sys.argv[5]
+
 #modeldir = "/data80/makinen/degenerate_fishnets/sr/l1_reg/"
 #modeldir = "/data80/makinen/degenerate_fishnets/sr/new_eta/"
-modeldir = "/data80/makinen/degenerate_fishnets/sr/full_k_eta/"
+#modeldir = "/data80/makinen/degenerate_fishnets/sr/full_k_eta/"
 thetadir = '/home/makinen/repositories/fishnets_for_degenerates/'
 
 
